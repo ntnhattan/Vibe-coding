@@ -1,0 +1,7 @@
+interface:
+  display_name: "Repo Next App"
+  short_description: "Guide for the repo's Next.js app workflow"
+  default_prompt: "Use $repo-next-app to update the Next.js app in this repository."
+
+policy:
+  allow_implicit_invocation: true

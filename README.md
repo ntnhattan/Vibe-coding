@@ -1,25 +1,22 @@
-# Vibe-coding
+# Vibe-coding Hello World
 
-A responsive login page built with plain HTML, CSS, and JavaScript.
+This is a Hello World project built with:
 
-## Overview
+- Next.js
+- TypeScript
+- Tailwind CSS
 
-This project contains a standalone login screen with a split-layout design,
-custom styling, and basic client-side form validation.
+## Run locally
 
-## Files
+1. Install dependencies:
+   `npm install`
+2. Start development server:
+   `npm run dev`
+3. Open:
+   `http://localhost:3000`
 
-- `index.html` contains the page structure and form markup.
-- `styles.css` contains the visual design, layout, and responsive behavior.
-- `script.js` handles password visibility and simple form validation.
+## Project structure
 
-## Features
-
-- Responsive desktop and mobile layout
-- Custom typography and gradient background
-- Password show and hide toggle
-- Basic login form validation
-
-## Run
-
-Open `index.html` in a browser to view the page locally.
+- `app/page.tsx` - Hello World page
+- `app/layout.tsx` - Root layout and metadata
+- `app/globals.css` - Tailwind imports and global styles

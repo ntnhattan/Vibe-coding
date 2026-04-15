@@ -1,0 +1,7 @@
+interface:
+  display_name: "Repo Static Prototype"
+  short_description: "Guide for the root static prototype workflow"
+  default_prompt: "Use $repo-static-prototype-port to work with the root HTML and CSS prototype in this repository."
+
+policy:
+  allow_implicit_invocation: true
